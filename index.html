@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>yearup first html</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style></style>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="apple-touch-icon" href="extra.html"/>
     <style>
-        .squiggly-underline {
-            text-decoration: cornflowerblue wavy underline;
-        }
-        body {
-            background-color: antiquewhite;
-        }
+      .buttons {
+        display: inline-block;
+        background-color: antiquewhite;
+        color: #91ef6c;
+        text-align: center;
+        font-family: monospace;
+      }
     </style>
-    <link rel="stylesheet" href="style.css">
-    <link rel="apple-touch-icon" href="extra.html">
-</head>
-<body>
+  </head>
+
+  <body>
     <header>
-        <h1>An <span class="squiggly-underline">introduction</span> to luis</h1>
-        <p>hello world</p>
+      <h1>
+        <div id="container0">
+          <ul id="container01">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./indexx.html">Contact</a></li>
+          </ul>
+        </div>
+      </h1>
+      <h2><span class="squiggly-underline"> An introduction to Luis</span></h2>
+      <p>hello world</p>
+      <div class="buttons">
         <form action="extra.html">
-        <button type="submit" >about me</button>
+          <button type="submit">About Me</button>
         </form>
+      </div>
     </header>
     <footer></footer>
-</body>
+  </body>
 </html>
